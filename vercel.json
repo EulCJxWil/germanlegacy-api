@@ -1,7 +1,14 @@
 {
-  "functions": {
-    "api/documents.py": {
-      "maxDuration": 30
+  "builds": [
+    {
+      "src": "api/documents.py",
+      "use": "@vercel/python"
     }
-  }
+  ],
+  "routes": [
+    {
+      "src": "/api/documents",
+      "dest": "api/documents.py"
+    }
+  ]
 }
