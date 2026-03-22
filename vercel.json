@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/documents.py": {
+      "maxDuration": 30
+    }
+  }
+}
